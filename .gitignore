@@ -1,0 +1,20 @@
+# folders
+dat/*
+fig/*
+
+# excutables
+bin/print_grid
+bin/print_rivvec
+bin/txt_vector
+bin/*.o 
+
+# text files
+*.txt
+
+# some python
+src/map_data_old.py
+
+# keep
+!./dat/outflw2000.bin
+!./dat/rivnum_GBM_15min.bin
+!./fig/mean_outflow.jpg
