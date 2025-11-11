@@ -1,6 +1,14 @@
 # folders
 dat/*
+# keep
+!dat/
+!dat/outflw2000.bin
+!dat/rivnum_GBM_15min.bin
+
 fig/*
+# keep
+!fig/
+!fig/mean_outflow.jpg
 
 # excutables
 bin/print_grid
@@ -13,8 +21,3 @@ bin/*.o
 
 # some python
 src/map_data_old.py
-
-# keep
-!./dat/outflw2000.bin
-!./dat/rivnum_GBM_15min.bin
-!./fig/mean_outflow.jpg
